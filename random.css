@@ -1,0 +1,54 @@
+header {
+	height: 8vh;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	width: 90vw;
+	height: 90vh;
+	border: 5px solid #000;
+}
+
+#frame-blank {
+	position: fixed;
+	margin: 8% auto;
+	border: 5px dotted lightblue;
+	height: 30em;
+	width: 30em;
+	z-index: 1;
+}
+
+#frame-left {
+	position: fixed;
+	margin: 8% auto;
+	border: 5px dotted lightblue;
+	height: 30em;
+	width: 30em;
+	z-index: 2;
+}
+
+#frame-right {
+	position: fixed;
+	margin: 8% auto;
+	border: 5px dotted lightblue;
+	height: 30em;
+	width: 30em;
+	z-index: 3;
+}
+
+.hidden {
+	display: none;
+}
+
+.shown {
+	display: initial;
+}
+
+h1 {
+	font-family: 'Arial', sans-serif;
+}
+
+img {
+	width: 100%;
+}
